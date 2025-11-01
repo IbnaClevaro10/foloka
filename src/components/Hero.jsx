@@ -19,7 +19,7 @@ export default function Hero() {
 
   return (
   <section
-  id="home"
+  id="hero"
   className="relative w-full min-h-screen bg-cover bg-center text-white overflow-hidden flex flex-col justify-between"
   style={{
     backgroundImage: `url(${background})`,
@@ -33,7 +33,7 @@ export default function Hero() {
 
   {/* Teks tengah */}
   <div className="relative z-10 flex flex-col items-center justify-center text-center py-32">
-    <h1 className="text-5xl font-bold mb-4">Hai Anjing</h1>
+    <h1 className="text-5xl mb-4 font-primary  tracking-tighter italic">Hai <span className="font-bold font-normal" style={{fontWeight : "bold", fontStyle : "normal"}}> Anjing</span> </h1>
     <p className="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, minima?</p>
   </div>
 

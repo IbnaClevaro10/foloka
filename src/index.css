@@ -10,6 +10,10 @@
   background-color: #015258;
 }
 
+.font-primary {
+    font-family: "Lora", serif;
+}
+
 .bg-secondary {
   background-color: #ff9479;
 }
@@ -28,4 +32,4 @@
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
-  
+    
