@@ -13,7 +13,7 @@ const Navbar = () => {
 
         <ul className="hidden md:flex space-x-8">
           <li>
-            <Scroll to="hero" smooth={true} duration={600} className="cursor-pointer text-primary">
+            <Scroll to="/" smooth={true} duration={600} className="cursor-pointer text-primary">
               Home
             </Scroll>
           </li>
@@ -21,12 +21,6 @@ const Navbar = () => {
           <li>
             <Scroll to="recomandation" smooth={true} duration={600} className="cursor-pointer text-primary">
               Rekomendasi
-            </Scroll>
-          </li>
-
-          <li>
-            <Scroll to="howitworks" smooth={true} duration={600} className="cursor-pointer text-primary">
-              Kenapa?
             </Scroll>
           </li>
 
